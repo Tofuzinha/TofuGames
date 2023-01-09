@@ -8,8 +8,6 @@ import { GameMemory } from "./pages/gameMemory/MemoryGame";
 import { GameOld } from "./pages/gameOld/gameOld";
 import { GamePokemon } from "./pages/gamePokemon/GamePokemon";
 
-
-
 function App() {
 
   return (
@@ -21,7 +19,6 @@ function App() {
         <Route path='/games/gameMemory' element={<GameMemory/>}/>
         <Route path='/games/gameOld' element={<GameOld/>}/>
         <Route path='/games/gamePokemon' element={<GamePokemon/>}/>
-
         <Route path='/about' element={<About/>} />
         
       </Routes>
