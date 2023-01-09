@@ -5,7 +5,7 @@ import { About } from "./pages/about/About";
 import { Games } from './pages/games/Games';
 import { Home } from './pages/home/Home';
 import { GameMemory } from "./pages/gameMemory/MemoryGame";
-import { GameOld } from "./pages/gameOld/gameOld";
+import { GameOld } from "./pages/gameOld/GameOld";
 import { GamePokemon } from "./pages/gamePokemon/GamePokemon";
 
 function App() {
