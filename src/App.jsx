@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { About } from "./pages/about/About";
 import { Games } from './pages/games/Games';
-import { Home } from './pages/home/home';
+import { Home } from './pages/home/Home';
 import { GameMemory } from "./pages/gameMemory/MemoryGame";
 import { GameOld } from "./pages/gameOld/gameOld";
 import { GamePokemon } from "./pages/gamePokemon/GamePokemon";
@@ -26,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
