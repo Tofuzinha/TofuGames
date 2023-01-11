@@ -7,13 +7,15 @@ function GameWordle () {
     const [solution, setSolution] = useState(null);
 
     useEffect(()=> {
-        fetch('http://localhost:3001/solutions')
+        fetch('https://tofuzinha.github.io/TofuGamesApi/db.json')
         .then(res => res.json())
+        .then(json => json.solutions)
         .then(json => {
             //sortear um numero inteiro aleatorio 0 & 29
             const randomSolution = json[Math.floor(Math.random()*json.length)]
             setSolution(randomSolution.word);
         })
+        console.log(solution)
     },[setSolution])
 
     return(

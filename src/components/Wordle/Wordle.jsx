@@ -30,6 +30,7 @@ export default function Wordle({ solution }) {
 
   return (
     <Container>
+      <div>{solution}</div>
       <GridTable
       currentGuess={currentGuess}
       guesses={guesses}
