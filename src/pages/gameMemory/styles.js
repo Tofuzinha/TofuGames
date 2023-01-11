@@ -4,17 +4,13 @@ export const Container = styled.div`
     max-width: 100%;
     margin-top: 2rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    text-align: center;
     color: #fff;
 
 `
 
 export const ContentHeader = styled.div`
-    width: 800px;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -51,8 +47,8 @@ export const NewGame = styled.button`
 
 export const CardGrid = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 1rem;
     margin-top: 1rem;
 `
 

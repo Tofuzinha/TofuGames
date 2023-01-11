@@ -7,7 +7,7 @@ export function Games () {
                 <CardGames>
                     <NameGames to='/games/gameMemory'>Jogo da Memória</NameGames>
                     <NameGames to='/games/gameOld'>Jogo da Velha</NameGames>
-                    <NameGames to='/games/gamePokemon'>Jogo da Pokemon</NameGames>
+                    <NameGames to='/games/RulesGameWordle'>Jogo das Palavras</NameGames>
                 </CardGames>
             </ContentGames>
         </Container>
